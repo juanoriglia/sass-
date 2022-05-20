@@ -1,0 +1,21 @@
+section {
+     
+    background-color: rgb(15, 27, 27);
+}
+
+.sec{
+    /* background-image: url("../imagenes/index2.jpg");*/
+   
+  
+   padding: 100px;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} 
+
+.sec .content {
+    position: relative;
+    text-align: center;
+    width: 100%;
+       }
