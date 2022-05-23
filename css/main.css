@@ -1,3 +1,31 @@
+body {
+  background-color: #ededed;
+  min-height: 1000px; }
+
+footer {
+  bottom: 0;
+  color: black;
+  height: 5rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.637); }
+
+footer ul {
+  list-style: georgian; }
+
+footer ul li a {
+  text-decoration: none;
+  color: #c4e6c6;
+  font-size: 24px; }
+
+.header {
+  background-color: black; }
+
+header .mdqdronevision {
+  color: #a633c9; }
+
+header ul li a {
+  color: blueviolet; }
+
 /* hoja de estilos de css */
 * {
   margin: 0;
@@ -177,26 +205,18 @@ section {
 .bienvenido {
   color: #56416e; }
 
-.header {
-  background-color: black; }
+section {
+  background-color: #0f1b1b; }
 
-header .mdqdronevision {
-  color: #a633c9; }
+.sec {
+  /* background-image: url("../imagenes/index2.jpg");*/
+  padding: 100px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
-header ul li a {
-  color: blueviolet; }
-
-footer {
-  bottom: 0;
-  color: black;
-  height: 5rem;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.637); }
-
-footer ul {
-  list-style: georgian; }
-
-footer ul li a {
-  text-decoration: none;
-  color: #c4e6c6;
-  font-size: 24px; }
+.sec .content {
+  position: relative;
+  text-align: center;
+  width: 100%; }
