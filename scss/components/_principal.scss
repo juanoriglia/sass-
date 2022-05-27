@@ -38,6 +38,7 @@
       overflow: hidden;
     }
     header{
+    @extend %flex-center;
         position: fixed;
         top: 0;
         left: 0;
@@ -156,12 +157,14 @@
   
   
   footer {
-     
+      position:absolute;
+      left: 0;
       bottom: 0;
       color: black;
       height: 5rem;
       width: 100%;
       background-color: rgba(0, 0, 0, 0.637);
+      
   }
      
   footer ul {

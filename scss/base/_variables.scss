@@ -1,3 +1,54 @@
 $color-principal: rgb(154, 124, 163);
 $tamanio-total: 100%;
 $tamanio-medio: $tamanio-total/2;
+
+
+/* maps */
+$tamanio-tipografia:(
+    titulos: 24px,
+    subtitulos: 20px,
+    parrafos: 14px,
+    letra-chica: 12px
+);
+
+$colores:(
+    color-principal: $color-principal,
+    color-secundario: rgb(15, 27, 27)
+);
+
+
+/* extend */
+
+ %flex-center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ /* mixin */
+
+ @mixin flexbox ($direction, $justify, $align) {
+     display:flex;
+     direction :$direction;
+     justify-content: $justify;
+     align-items: $align;
+
+    @if $direction == column {
+        justify-content: center;
+    }
+    @if $direction == row  {
+        justify-content: space-evenly;
+    }
+
+
+ }
+
+ @mixin btn ($bg-color){
+    display: inline-block;
+    background: #000;
+    color:#fff;
+    padding: 10px; 
+    text-decoration:none;
+ }

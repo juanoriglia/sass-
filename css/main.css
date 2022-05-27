@@ -1,3 +1,11 @@
+/* maps */
+/* extend */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* mixin */
 body {
   background-color: #ededed;
   min-height: 1000px; }
@@ -109,8 +117,7 @@ header ul li a {
   .banner h2 span {
     color: blueviolet; }
 
-.banner h2
-.sec {
+.banner h2 .sec {
   /* background-image: url("../imagenes/index2.jpg");*/
   padding: 100px;
   min-height: 100vh;
@@ -150,6 +157,8 @@ p {
   object-fit: cover; }
 
 footer {
+  position: absolute;
+  left: 0;
   bottom: 0;
   color: black;
   height: 5rem;
