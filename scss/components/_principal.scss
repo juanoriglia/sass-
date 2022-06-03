@@ -8,9 +8,10 @@
   
   
     body{
-        background-color: #ededed;
-        min-height: 1000px;
-        
+       background-color: #fff;
+       position: relative;       
+       min-height: 100vh;
+       
     }
   
     main {
@@ -157,13 +158,14 @@
   
   
   footer {
-      position:absolute;
-      left: 0;
-      bottom: 0;
-      color: black;
-      height: 5rem;
-      width: 100%;
-      background-color: rgba(0, 0, 0, 0.637);
+    position: absolute;
+    bottom: 0;
+    color: #000;
+    height: 5rem;
+    width: 100%;
+    background-color: rgba($color: #814747, $alpha: 1.0);
+    
+      
       
   }
      
@@ -172,9 +174,15 @@
   }
   
   footer ul li a {
+      text-align: center;
       text-decoration: none ;
       color: rgb(196, 230, 198);
       font-size: 24px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      
+
   }
   
   @media only screen and (max-width:1024px){
@@ -204,7 +212,7 @@
   
   .grid-container{
       display: grid;
-      background-color: cornsilk;
+      background-color: rgb(255, 220, 220);
       grid-template-columns: auto auto auto  ;
       
   }

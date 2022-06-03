@@ -42,8 +42,9 @@ header ul li a {
   font-family: 'Poppins' sans-serif; }
 
 body {
-  background-color: #ededed;
-  min-height: 1000px; }
+  background-color: #fff;
+  position: relative;
+  min-height: 100vh; }
 
 main {
   width: 70%;
@@ -158,20 +159,23 @@ p {
 
 footer {
   position: absolute;
-  left: 0;
   bottom: 0;
-  color: black;
+  color: #000;
   height: 5rem;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.637); }
+  background-color: #814747; }
 
 footer ul {
   list-style: georgian; }
 
 footer ul li a {
+  text-align: center;
   text-decoration: none;
   color: #c4e6c6;
-  font-size: 24px; }
+  font-size: 24px;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
 
 @media only screen and (max-width: 1024px) {
   footer {
@@ -190,7 +194,7 @@ footer ul li a {
 
 .grid-container {
   display: grid;
-  background-color: cornsilk;
+  background-color: #ffdcdc;
   grid-template-columns: auto auto auto; }
 
 .grid-container div {
