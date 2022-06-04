@@ -8,7 +8,7 @@ header {
 /* mixin */
 body {
   background-color: #ededed;
-  min-height: 1000px; }
+  min-height: 1000; }
 
 footer {
   bottom: 0;
@@ -50,7 +50,6 @@ main {
   width: 70%;
   background: white;
   padding: 20px;
-  float: left;
   box-sizing: border-box; }
 
 aside {
@@ -78,11 +77,11 @@ header {
   padding: 5px 100px;
   z-index: 1000;
   transition: 0.6s;
-  background: #18191a; }
+  background: #cadbd3; }
 
 header .Mdqdronevision {
   font-weight: 700;
-  color: #a633c9;
+  color: #1a6708;
   text-decoration: none;
   font-size: 2em;
   text-transform: uppercase;
@@ -97,7 +96,7 @@ header ul {
 header ul li a {
   margin: 0 15px;
   text-decoration: none;
-  color: blueviolet;
+  color: #1a673a;
   letter-spacing: 2px;
   font-weight: 400; }
 
@@ -133,7 +132,7 @@ header ul li a {
 
 .btn {
   display: inline-block;
-  background: #000;
+  background: #d3cdcd;
   color: #fff;
   padding: 10px;
   text-decoration: none; }
@@ -159,8 +158,8 @@ p {
 
 footer {
   position: absolute;
-  bottom: 0;
-  color: #000;
+  bottom: 0%;
+  color: #0f0c0c;
   height: 5rem;
   width: 100%;
   background-color: #814747; }
@@ -198,13 +197,13 @@ footer ul li a {
   grid-template-columns: auto auto auto; }
 
 .grid-container div {
-  background-color: crimson;
+  background-color: #0ba55a;
   text-align: center;
-  color: white;
-  border: 1px solid  black; }
+  color: #c8c4c4;
+  border: 1px solid #a7c2bb; }
 
 section {
-  background-color: #0f1b1b; }
+  background-color: #c5cdcd; }
 
 .carousel-item {
   height: 450px; }
@@ -216,10 +215,10 @@ section {
   width: 150 px; }
 
 .bienvenido {
-  color: #56416e; }
+  color: #176708 29, 84, 36; }
 
 section {
-  background-color: #0f1b1b; }
+  background-color: #babdbd; }
 
 .sec {
   /* background-image: url("../imagenes/index2.jpg");*/

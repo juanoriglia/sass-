@@ -17,8 +17,7 @@
     main {
         width: 70%;
         background: rgb(255, 255, 255);
-        padding: 20px;
-        float: left;
+        padding: 20px;       
         box-sizing: border-box;
     }
     
@@ -51,12 +50,12 @@
         padding: 5px 100px;
         z-index: 1000;
         transition: 0.6s;
-        background: rgb(24,25,26);
+        background: rgb(202, 219, 211);
     }
   
     header .Mdqdronevision{
         font-weight: 700;
-        color: rgb(166, 51, 201) ;
+        color: rgb(26, 103, 08) ;
         text-decoration: none;
         font-size: 2em;
         text-transform: uppercase;
@@ -72,7 +71,7 @@
    header ul li a{
       margin: 0 15px;
       text-decoration: none;
-      color: blueviolet; 
+      color: rgb(26, 103, 58); 
       letter-spacing: 2px;
       font-weight: 400;}
   
@@ -123,7 +122,7 @@
           
   .btn {
       display: inline-block;
-      background: #000;
+      background: rgb(211, 205, 205);
       color:#fff;
       padding: 10px; 
       text-decoration:none;
@@ -159,8 +158,8 @@
   
   footer {
     position: absolute;
-    bottom: 0;
-    color: #000;
+    bottom: 0%;
+    color: rgb(15, 12, 12);
     height: 5rem;
     width: 100%;
     background-color: rgba($color: #814747, $alpha: 1.0);
@@ -218,16 +217,16 @@
   }
   
   .grid-container div{
-      background-color:  crimson;
+      background-color:  rgb(11, 165, 90);
       text-align: center;
-      color: white;
-      border: 1px solid  black;
+      color: rgb(200, 196, 196);
+      border: 1px solid  rgb(167, 194, 187);
   
   }
      
   section {
      
-      background-color: rgb(15, 27, 27);
+      background-color: rgb(197, 205, 205);
   }
   
   .carousel-item{
@@ -243,7 +242,7 @@
   }
   
   .bienvenido{
-      color: rgb(86, 65, 110);
+      color: rgb(23, 103, 08) (29, 84, 36);
    }
   
    
