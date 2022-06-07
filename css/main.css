@@ -55,12 +55,6 @@ aside {
   background: #ccc;
   float: left; }
 
-.contenedor {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  overflow: hidden; }
-
 header {
   position: fixed;
   top: 0;

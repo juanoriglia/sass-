@@ -26,13 +26,7 @@
   
     }
   
-    .contenedor {
-  
-      width: 100%;
-      max-width: 1000px;
-      margin: 0 auto;
-      overflow: hidden;
-    }
+   
     header{
     @extend %flex-center;
         position: fixed;
