@@ -43,7 +43,7 @@ header ul li a {
   font-family: 'Poppins' sans-serif; }
 
 main {
-  width: 70%;
+  width: 100%;
   background: white;
   padding: 20px;
   box-sizing: border-box; }
@@ -188,7 +188,7 @@ section {
   color: #176708 29, 84, 36; }
 
 section {
-  background-color: #788686; }
+  background-color: #646364; }
 
 .sec {
   /* background-image: url("../imagenes/index2.jpg");*/
