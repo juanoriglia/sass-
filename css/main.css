@@ -172,9 +172,6 @@ p {
   color: #c8c4c4;
   border: 1px solid #a7c2bb; }
 
-section {
-  background-color: #c5cdcd; }
-
 .carousel-item {
   height: 450px; }
 
@@ -188,7 +185,7 @@ section {
   color: #176708 29, 84, 36; }
 
 section {
-  background-color: #646364; }
+  background-color: #5d6464; }
 
 .sec {
   /* background-image: url("../imagenes/index2.jpg");*/
